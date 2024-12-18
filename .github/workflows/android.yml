@@ -81,7 +81,7 @@ jobs:
             -Dfreedreno-kmds=kgsl,msm \
             -Dshared-glapi=false \
             -Dtools=drm-shim \
-            -Dbuildtype=release
+            -Dbuildtype=debug
           ninja -C "build-android" install
           mkdir /tmp/mesa/output
           mkdir /tmp/mesa/drm_shim
